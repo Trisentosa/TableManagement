@@ -1,0 +1,60 @@
+###
+post http://localhost:8000/api/register
+Content-Type: application/json
+
+{
+    "name":"dumpling",
+    "email":"dumplin@gmail.com",
+    "password":"selamatmakan123"
+}
+###
+post http://localhost:8000/api/login
+Content-Type: application/json
+
+{
+    "email":"c@c",
+    "password":"c"
+}
+
+###
+get http://localhost:8000/api/user
+
+###
+post http://localhost:8000/api/logout
+
+###
+get http://localhost:8000/table/getAll
+###
+post http://localhost:8000/table/create
+Content-Type: application/json
+
+{
+    "company":"Yupi",
+    "product":"Glucose",
+    "quantity":200,
+    "etd":"2021-12-12",
+    "eta":"2021-12-15"
+}
+###
+post http://localhost:8000/table/update
+Content-Type: application/json
+
+{
+    "id": "61c75483429d3a1f1c7e85e3" ,
+    "company":"TSSI",
+    "product":"Glucose",
+    "quantity":150,
+    "etd":"2021-12-12",
+    "eta":"2021-12-15"
+}
+###
+post http://localhost:8000/table/delete
+Content-Type: application/json
+
+{
+    "id": "61c75483429d3a1f1c7e85e3"
+}
+###
+get http://localhost:8000/table/getAll
+
+

@@ -1,8 +1,8 @@
 # Table Management
-[Full Project](https://pages.github.com/)
+**[Full Project DEMO](https://pages.github.com/)**
 
 ## Description
-A simple and straight forward table management web application that is implemented using the MERN stack. Main features include REST API in the form of table, and standard user authentication
+A simple and straight forward table management web application that is implemented using the MERN stack. Main features include REST API in the form of table and standard user authentication.
 
 ## Function and Features
 1. **Authentication**: Standard MERN authentication implementation, user information is stored in JWT

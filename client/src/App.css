@@ -1,0 +1,76 @@
+body {
+  background-color: black;
+}
+
+.App {
+  font-family: "Ubuntu", sans-serif;
+  background-color: rgb(15, 15, 15);
+  height: 100vh;
+  width: 100vw;
+}
+
+.form-signin {
+  padding: 30px;
+  width: 30%;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 20%;
+  transform: translateX(-50%);
+  left: 50%;
+  border-radius: 2%;
+  border: 3px solid rgb(119, 11, 11);
+  background-color: rgb(14, 14, 14);
+}
+
+.fr-text {
+  color: rgb(224, 224, 224);
+}
+
+.fr-label {
+  color: white;
+}
+
+.fr-control {
+  color: white;
+  background-color: rgb(37, 37, 37);
+  border-radius: 0%;
+  border: 1px solid rgb(202, 202, 202);
+  margin-bottom: 5px;
+}
+
+.fr-control:focus {
+  color: white;
+  background-color: rgb(22, 22, 22);
+  border-radius: 0%;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.user-link {
+  display: flex;
+  justify-content: end;
+}
+
+.linkus {
+  color: rgb(211, 211, 211);
+  text-decoration: underline rgb(211, 211, 211);
+}
+
+.linkus:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: underline rgb(255, 255, 255);
+}
+
+.centered-label {
+  display: flex;
+  align-items: center;
+}
+
+.error-message {
+  color: rgb(170, 7, 7);
+  font-style: italic;
+}
+
+.ok-message {
+  color: green;
+  font-style: italic;
+}

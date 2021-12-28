@@ -1,0 +1,59 @@
+/* table style */
+table {
+  margin: auto;
+  text-align: center;
+  width: 70%;
+}
+
+.tr-header {
+  color: white;
+  background-color: darkred;
+}
+
+.tr-content {
+  color: rgb(255, 255, 255);
+}
+
+.tr-content:hover {
+  background-color: rgb(56, 58, 59);
+}
+th,
+td {
+  padding: 0.5em;
+  border-bottom: 1px solid gray;
+}
+
+/*************table container and stuff**************/
+
+.tableDiv {
+  margin: auto;
+  width: 80%;
+}
+
+.flex-arrange {
+  display: flex;
+  justify-content: center;
+}
+
+.page-options {
+  display: flex;
+  justify-content: center;
+}
+
+/*********table search*********/
+.tableSearch {
+  width: 45%;
+}
+
+.search-input {
+  background-color: black;
+  color: white;
+  border-radius: 0%;
+}
+
+.search-input:focus {
+  background-color: rgb(1, 3, 22);
+  border: white 1px solid;
+  color: white;
+  border-radius: 0%;
+}

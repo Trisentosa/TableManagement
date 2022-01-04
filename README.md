@@ -1,5 +1,5 @@
 # Table Management
-**[Full Project DEMO](https://table-management-wisesa.herokuapp.com/)**
+**[Full Project DEMO](https://table-management-wisesa.herokuapp.com/)** (might take a while to load)
 
 ## Description
 A simple and straight forward table management web application that is implemented using the MERN stack. Main features include REST API in the form of table and standard user authentication.
